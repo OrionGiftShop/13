@@ -1,0 +1,17 @@
+/* Make the video container responsive */
+div {
+  width: 100%;
+  max-width: 100%; /* Allow it to fill the container */
+  padding: 0; /* Remove any padding */
+  margin: 0 auto; /* Center the container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the video to be fully responsive */
+video {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  max-width: 600px;
+}
